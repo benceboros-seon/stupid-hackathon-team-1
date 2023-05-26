@@ -6,6 +6,7 @@ import Loading0 from './Loading0';
 import Loading1 from './Loading1';
 import Loading2 from './Loading2';
 import Loading3 from './Loading3';
+import Bigdata from './Bigdata';
 
 const Container = styled.div({
   width: '100vw',
@@ -42,6 +43,7 @@ const TerminalController = (props = {}) => {
   const [isLoading1, setIsLoading1] = useState(false);
   const [isLoading2, setIsLoading2] = useState(false);
   const [isLoading3, setIsLoading3] = useState(false);
+  const [bigData, setBigData] = useState(false);
   
   useEffect(() => {setTimeout(() => {
     setIsLoading0(false);
@@ -76,12 +78,14 @@ const TerminalController = (props = {}) => {
     return <Loading3></Loading3>
   }
 
-
   const onInput = async (terminalInput) => {
+    if (terminalInput === 'It\'s big data') {
+      setBigData(true);
+    }
     if (terminalInput === '') {
       if (answerMap[currentIndex] === 'radar') {
         setShowRadar(true);
-        setTimeout(() => {setShowRadar(false)}, 8000);
+        setTimeout(() => {setShowRadar(false)}, 800000);
         currentIndex += 1;
         await sleep(8000);
       }

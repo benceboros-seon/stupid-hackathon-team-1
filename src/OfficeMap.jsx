@@ -5,7 +5,6 @@ const Container = styled.div({
   left: '55%',
   top: '55%',
   position: 'absolute',
-  zIndex: '10000',
 })
 
 const OfficeMap = () => (

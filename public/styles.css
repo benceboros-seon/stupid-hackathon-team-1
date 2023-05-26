@@ -59,7 +59,7 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   display: block;
-  position: absolute;
+  position: relative;
   width: 20px;
   height: 80px;
   background: url('club_mate.jpg') center;
