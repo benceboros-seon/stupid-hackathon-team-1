@@ -1,0 +1,14 @@
+const Radar = () => (
+  <div class="panel">
+    <div class="scanner"></div>
+    <ul class="something">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+)
+
+export default Radar;
