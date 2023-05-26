@@ -11,20 +11,12 @@
   --rotation-x: 0;
 	--size: 80vmin;
 	--segment: calc(var(--size) / 100);
-	--loading-speed: 10s;
+	--loading-speed: 5s;
 	--color: hsl(210 80% 50%);
 	--segments-per-second: calc(var(--loading-speed) / var(--total-length));
 }
 
-body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  background: hsl(0 0% 90%);
-  font-family:  'Google Sans', sans-serif, system-ui;
-}
-
-#flip:checked ~ .container {
+.container {
 	--rotation-y: -24;
 	--rotation-x: -24;
 }
