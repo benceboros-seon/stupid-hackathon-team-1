@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stupid-hackathon-team-1/static/css/main.e6c13ad2.css",
-    "main.js": "/stupid-hackathon-team-1/static/js/main.f414fccd.js",
-    "static/js/787.d5b1263c.chunk.js": "/stupid-hackathon-team-1/static/js/787.d5b1263c.chunk.js",
-    "index.html": "/stupid-hackathon-team-1/index.html",
-    "main.e6c13ad2.css.map": "/stupid-hackathon-team-1/static/css/main.e6c13ad2.css.map",
-    "main.f414fccd.js.map": "/stupid-hackathon-team-1/static/js/main.f414fccd.js.map",
-    "787.d5b1263c.chunk.js.map": "/stupid-hackathon-team-1/static/js/787.d5b1263c.chunk.js.map"
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.47716eff.js",
+    "static/js/787.d5b1263c.chunk.js": "/static/js/787.d5b1263c.chunk.js",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.47716eff.js.map": "/static/js/main.47716eff.js.map",
+    "787.d5b1263c.chunk.js.map": "/static/js/787.d5b1263c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f414fccd.js"
+    "static/js/main.47716eff.js"
   ]
 }
