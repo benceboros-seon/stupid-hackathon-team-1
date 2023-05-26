@@ -6,7 +6,6 @@ import Loading0 from './Loading0';
 import Loading1 from './Loading1';
 import Loading2 from './Loading2';
 import Loading3 from './Loading3';
-import Loading4 from './Loading4';
 
 const Container = styled.div({
   width: '100vw',
@@ -43,7 +42,6 @@ const TerminalController = (props = {}) => {
   const [isLoading1, setIsLoading1] = useState(false);
   const [isLoading2, setIsLoading2] = useState(false);
   const [isLoading3, setIsLoading3] = useState(false);
-  const [isLoading4, setIsLoading4] = useState(false);
   
   useEffect(() => {setTimeout(() => {
     setIsLoading0(false);
@@ -59,11 +57,7 @@ const TerminalController = (props = {}) => {
   }, 15000)}, [])
   useEffect(() => {setTimeout(() => {
     setIsLoading3(false);
-    setIsLoading4(true);
-  }, 20000)}, [])
-  useEffect(() => {setTimeout(() => {
-    setIsLoading4(false);
-  }, 25000)}, [])
+  }, 22000)}, [])
 
 
   if (isLoading0) {
@@ -80,10 +74,6 @@ const TerminalController = (props = {}) => {
 
   if (isLoading3) {
     return <Loading3></Loading3>
-  }
-
-  if (isLoading4) {
-    return <Loading4></Loading4>
   }
 
 

@@ -28,7 +28,7 @@ const Container = styled.div({
   placeItems: 'center',
   minHeight: '100vh',
   background: 'hsl(0 0% 90%)',
-  fontFamily:  "'Google Sans', sans-serif, system-ui",
+  fontFamily: "'Google Sans', sans-serif, system-ui",
 })
 
 export default () => (
